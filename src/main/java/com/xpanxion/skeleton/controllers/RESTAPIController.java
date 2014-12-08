@@ -25,7 +25,7 @@ import com.xpanxion.skeleton.service.UserService;
 @Controller
 public class RESTAPIController {
 	private UserService userService;
-	// test
+	
 	/**
 	 * Returns a list of user beans as a JSON object
 	 * @return
@@ -33,6 +33,7 @@ public class RESTAPIController {
 	@RequestMapping(value="/api/users", method=RequestMethod.GET)
 	@ResponseBody
 	public List<UserBean> getAllUsers_ReturnAsJSONResponseBody(){
+		
 		return this.userService.getUserBeans();
 	}
 	
