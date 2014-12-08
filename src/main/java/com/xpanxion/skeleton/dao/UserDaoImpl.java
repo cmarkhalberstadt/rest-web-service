@@ -113,7 +113,6 @@ public class UserDaoImpl implements UserDao {
 		}
 		
 		
-		
 		int returnValue = session.createSQLQuery(SQLQuery).executeUpdate();
 		
 		try {
