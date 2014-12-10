@@ -7,8 +7,8 @@ import java.util.List;
 
 
 import com.xpanxion.skeleton.dao.UserDao;
-import com.xpanxion.skeleton.dto.beans.UserBean;
-import com.xpanxion.skeleton.dto.entity.UserEntity;
+import com.xpanxion.springmvctutorial.dto.beans.UserBean;
+import com.xpanxion.springmvctutorial.dto.entity.UserEntity;
 
 /**
  * A service dealing with User Test Beans

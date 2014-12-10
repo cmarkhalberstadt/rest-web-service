@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.hibernate.SessionFactory;
 
-import com.xpanxion.skeleton.dto.beans.UserBean;
-import com.xpanxion.skeleton.dto.entity.UserEntity;
+import com.xpanxion.springmvctutorial.dto.beans.UserBean;
+import com.xpanxion.springmvctutorial.dto.entity.UserEntity;
 
 /**
  * Interface for the User Dao

@@ -12,8 +12,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.stereotype.Repository;
 
-import com.xpanxion.skeleton.dto.beans.UserBean;
-import com.xpanxion.skeleton.dto.entity.UserEntity;
+import com.xpanxion.springmvctutorial.dto.beans.UserBean;
+import com.xpanxion.springmvctutorial.dto.entity.UserEntity;
 
 /**
  * Implementation of the UserDao interface. 
